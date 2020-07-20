@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Realtime</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="height:1500px">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Realtime</a></li>
+      <li><a href="forcast">Page Forcast</a></li>
+
+     
+    </ul>
+  </div>
+</nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2 class="text-center" style="color: blue; font-weight: bolder;">Punalur</h2>
+<div class="container" style="margin-top:50px; margin-left:17%;">
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/983661/charts/1?bgcolor=%23FFFFFF&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line&xaxis=Time&yaxis=C"></iframe>
+  
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/983661/charts/2?bgcolor=%23FFFFFF&color=%23d62020&dynamic=true&results=50&title=Humidity&type=spline&xaxis=Time&yaxis=%25+Percent"></iframe>
+<div class="container" style="margin-top:50px; margin-left:0%;">
+    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/983661/charts/5?bgcolor=%23FFFFFF&color=%23d62020&dynamic=true&results=60&title=AQI&type=line&xaxis=Time&yaxis=ppm"></iframe>
+    
+    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/983661/charts/4?bgcolor=%23FFFFFF&color=%23d62020&dynamic=true&results=60&title=CO&type=line&xaxis=Time&yaxis=ppm"></iframe>
+</div>
+<div class="container" style="margin-top:50px; margin-left:15%;">
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/983661/charts/3?bgcolor=%23FFFFFF&color=%23d62020&dynamic=true&results=60&title=Sound&type=line&xaxis=Time&yaxis=dB"></iframe>
+</div>
+
+</body>
+</html>

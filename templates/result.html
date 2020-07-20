@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>
+Forcast Results
+</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="login-container">
+    <h3>Forcast Results</h3>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+         {% comment %} {% extends 'base.html' %} {% endcomment %}
+
+{% block content %}
+
+
+
+<form>
+    <label>Date</label>
+    <input class="form-control" type="text" value="{{date}}">
+    <label>Sound</label>
+    <input class="form-control" type="text>" value="{{sound}}">
+  
+        <label>Gas</label>
+    <input class="form-control" type="text>" value="{{gas}}">
+   
+  
+</form>
+
+        </div>
+           <div class="col-6">
+         {% comment %} {% extends 'base.html' %} {% endcomment %}
+
+
+
+
+
+<form>
+
+   
+        <label>Humidity</label>
+    <input class="form-control" type="text>" value="{{humidity}}">
+    
+        <label>Temperature</label>
+    <input class="form-control" type="text>" value="{{temperature}}">
+</form>
+<br><br>
+  <h5 color="white"><a href="http://127.0.0.1:8000/">Back to Home</a></h5>
+        </div>
+      </div>
+    
+    </div>
+
+    
+</div>
+{% endblock  %}
+</body>
+
+</html>
