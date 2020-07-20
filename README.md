@@ -14,4 +14,4 @@ To run the program
 2) Wait for some time you will get a message "Django version 3.0.8, using settings 'aqi.settings'
                                               Starting development server at http://127.0.0.1:8000/
                                               Quit the server with CTRL-BREAK."
-3) Click on the ip link there you can find the web page
+3) Click on the ip link there you can find the web page.
